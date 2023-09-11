@@ -1,0 +1,58 @@
+.class1 {
+    color: #000;
+    margin: 8px 32px 32px 16px;
+    padding: 32px 16px 32px 16px;
+    border: 1px solid rgb(32, 32, 32, 1)
+
+}
+
+.class2 {
+    color: #da5597;
+    border: 1px solid rgb(32, 32, 32, 1)
+
+}
+
+p:first-child, p:nth-child(3), p:last-child {
+    color: rgb(77, 235, 101);
+}
+
+
+.class4 {
+    width:75px;
+    height:75px;
+    border:1px solid black; 
+}
+
+.class4:hover{
+    border-color: red;
+}
+
+
+h3::after{
+    content: "dupa";
+    margin-left: 8px;
+}
+
+h3::before{
+    content: "inainte";
+    margin-right: 8px;
+}
+
+
+.container {
+    width:250px;
+    height:50px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.child{
+    width: 25%;
+    height:50%;
+    position: absolute;
+    background-color: aquamarine;
+    top: 25%;
+    left: 37%;
+
+}
+
